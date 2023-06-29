@@ -25,8 +25,28 @@
         This is a demo of a risk and crisis chatbot. It uses 'Beyond The Spreadsheet', The 'ERM System Build Guide', and a model crisis management plan (CMP) by Andrew Sheves as knowledge base references to answer questions. <br><br>If it can't answer using the knowledge base, it sends the query to ChatGPT. The embedded bot can be temperamental while in development so if it doesn't pop up, you can access a browser version below. <br> <br> <a href="https://mediafiles.botpress.cloud/97b1ad14-69f7-448c-9fe4-e20d115767fc/webchat/bot.html" target="_blank">Open the browser version</a><br><br>🚨The app is a demo only and is still in development so do not use this for operational planning. Ensure you delete the chat at the end of your session. 
 
     </p>
+    <!-- Code for the configured embed <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/97b1ad14-69f7-448c-9fe4-e20d115767fc/webchat/config.js" defer></script>-->
+
     <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
-    <script src="https://mediafiles.botpress.cloud/97b1ad14-69f7-448c-9fe4-e20d115767fc/webchat/config.js" defer></script>
+    <script>
+      window.botpressWebChat.init({
+          "botId": "97b1ad14-69f7-448c-9fe4-e20d115767fc",
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+          "messagingUrl": "https://messaging.botpress.cloud",
+          "clientId": "97b1ad14-69f7-448c-9fe4-e20d115767fc",
+          "botName": "RiskChatBot",
+          "avatarUrl": "https://crisisdojo.ai/assets/images/image06.png?v=26b4d440",
+          "botConversationDescription": "Ada is your risk and crisis co-pilot. Say hi to start👋",
+          "emailAddress": "andrew@crisidojo.ai",
+          "website": "https://crisidojo.ai",
+          "useSessionStorage": true,
+          "showBotInfoPage": true,
+          "enableConversationDeletion": true
+      });
+    </script>
+    
+    
 </body>
 
 </html>
