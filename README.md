@@ -9,6 +9,8 @@ A project to build an interactive risk manager using desktop tools assisted by L
 - [ ] **ZETA** Reporting and governance reminders and prompts
 - [ ] **OMEGA** Is the integration requirement
 
+[The project roadmap is here](https://github.com/users/agsheves/projects/1)
+
 ## Status as at  Sunday, August 20, 2023
 
 ### ALPHA
