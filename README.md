@@ -1,13 +1,13 @@
 # The Riskbot Project
 A project to build an interactive risk manager using desktop tools assisted by LLMS and agents. The intent is to provide on-demand data and support for risk managers. Capabilities must include:
 
-- [x] **ALPHA** General guidance on risk and crisis management to answer theoretical queries or questions *(Compelted as stand-alone bot)*
-- [ ] **BETA** A risk assessment assistant to help assess the risks associated with threats
-- [ ] **GAMMA** General country information
-- [ ] **DELTA** Updated country news
-- [ ] **EPSILON** Crisis planning tools
-- [ ] **ZETA** Reporting and governance reminders and prompts
-- [ ] **OMEGA** Is the integration requirement
+- [x] **RAT** General guidance on risk and crisis management to answer theoretical queries or questions *(Compelted as stand-alone bot)*
+- [ ] **OX** A risk assessment assistant to help assess the risks associated with threats
+- [ ] **RABBIT** General country information
+- [ ] **DRAGON** Updated country news
+- [ ] **SNAKE** Crisis planning tools
+- [ ] **HORSE** Reporting and governance reminders and prompts
+- [ ] **GOAT** Is the integration requirement
 
 [The project roadmap is here](https://github.com/users/agsheves/projects/1)
 
@@ -43,7 +43,7 @@ flowchart TD
 
 ## Status as at  Sunday, August 20, 2023
 
-### ALPHA
+### RAT
 *General guidance on risk and crisis management to answer theoretical queries or questions*
 
 **Status** - ✅ 
@@ -52,22 +52,22 @@ flowchart TD
 
 ---
 
-### BETA
+### OX
 *A risk assessment assistant to help assess the risks associated with threats*
 
 ---
 
-### GAMMA
+### RABBIT
 *General country information*
 
 ---
 
-### DELTA
+### DRAGON
 *Updated country news*
 
 ---
 
-### EPSILON
+### SNAKE
 *Crisis planning tools*
 
 **Status** - ✅ *as standalone tool*
@@ -75,12 +75,12 @@ flowchart TD
 
  ---
 
-### ZETA
+### HORSE
 *Reporting and governance reminders and prompts*
 
 ---
 
-### OMEGA
+### GOAT
 *Integration*
 
 
