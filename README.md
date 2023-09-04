@@ -11,6 +11,36 @@ A project to build an interactive risk manager using desktop tools assisted by L
 
 [The project roadmap is here](https://github.com/users/agsheves/projects/1)
 
+---
+### System Overview
+
+Here's a sketch of how the components will fit together
+
+```mermaid
+flowchart TD
+    A[AIRMS\n AI Risk Management System] -->|Speed up and simplify\nrisk-based decision making| B(Functional tool set)
+    B --> C{Generation}
+    B --> G{Analysis}
+    B --> H{Automation}
+    B --> P{Operations}
+    C --> E[Threat Scenario\nGeneration\nfa:fa-check-square]
+    C --> D[Exercise Material\nGenerations\nfa:fa-check-square]
+    G --> I[News feed\nfa:fa-check-square]
+    G --> J[Country Data\nfa:fa-minus-square]
+    G --> K[Country Risk\nRating\nfa:fa-minus-square]
+    H --> L[Governance Report\nCompliation\nfa:fa-minus-square]
+    H --> M[Trigger Alerts\nCompliation\nfa:fa-check-square]
+    M --> Q
+    H --> O[Crisis Response\nToolkit\nfa:fa-check-square]
+    O --> Q
+    P --> Q[Crisis Response\nToolkit\nfa:fa-minus-square]
+    E --> R(Risk Assessment\nToolkit\nfa:fa-check-square)
+    I --> R
+    J --> R
+    K --> R
+```
+---
+
 ## Status as at  Sunday, August 20, 2023
 
 ### ALPHA
@@ -49,33 +79,6 @@ A project to build an interactive risk manager using desktop tools assisted by L
 *Reporting and governance reminders and prompts*
 
 ---
-### System Overview
-
-Here's a sketch of how the components will fit together
-
-```mermaid
-flowchart TD
-    A[AIRMS\n AI Risk Management System] -->|Speed up and simplify\nrisk-based decision making| B(Functional tool set)
-    B --> C{Generation}
-    B --> G{Analysis}
-    B --> H{Automation}
-    B --> P{Operations}
-    C --> E[Threat Scenario\nGeneration\nfa:fa-check-square]
-    C --> D[Exercise Material\nGenerations\nfa:fa-check-square]
-    G --> I[News feed\nfa:fa-check-square]
-    G --> J[Country Data\nfa:fa-minus-square]
-    G --> K[Country Risk\nRating\nfa:fa-minus-square]
-    H --> L[Governance Report\nCompliation\nfa:fa-minus-square]
-    H --> M[Trigger Alerts\nCompliation\nfa:fa-check-square]
-    M --> Q
-    H --> O[Crisis Response\nToolkit\nfa:fa-check-square]
-    O --> Q
-    P --> Q[Crisis Response\nToolkit\nfa:fa-minus-square]
-    E --> R(Risk Assessment\nToolkit\nfa:fa-check-square)
-    I --> R
-    J --> R
-    K --> R
-```
 
 ### OMEGA
 *Integration*
