@@ -71,6 +71,7 @@ flowchart TD
 *Updated country news*
 
 - In progress.
+- See the progress in the repository [here](https://github.com/agsheves/daily-news-summary)
 
 ---
 
