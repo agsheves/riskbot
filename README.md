@@ -1,5 +1,5 @@
-# The Riskbot Project
-A project to build an interactive risk manager using desktop tools assisted by LLMS and agents. The intent is to provide on-demand data and support for risk managers. Capabilities must include:
+# The AIRMS Project
+A project to build an interactive risk manager (AI risk management system) using desktop tools assisted by LLMS and agents. The intent is to provide on-demand data and support for risk managers. Capabilities must include:
 
 - [x] **RAT** General guidance on risk and crisis management to answer theoretical queries or questions *(Compelted as stand-alone bot)*
 - [x] **OX** A risk assessment assistant to help assess the risks associated with threats *(build - DCDR.io)*
