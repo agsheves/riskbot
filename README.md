@@ -2,11 +2,11 @@
 A project to build an interactive risk manager using desktop tools assisted by LLMS and agents. The intent is to provide on-demand data and support for risk managers. Capabilities must include:
 
 - [x] **RAT** General guidance on risk and crisis management to answer theoretical queries or questions *(Compelted as stand-alone bot)*
-- [ ] **OX** A risk assessment assistant to help assess the risks associated with threats
-- [ ] **RABBIT** General country information
-- [ ] **DRAGON** Updated country news
-- [ ] **SNAKE** Crisis planning tools
-- [ ] **HORSE** Reporting and governance reminders and prompts
+- [x] **OX** A risk assessment assistant to help assess the risks associated with threats *(build - DCDR.io)*
+- [ ] **RABBIT** General country information *(prototype built)*
+- [ ] **DRAGON** Updated country news *(prototype built)*
+- [ ] **SNAKE** Crisis planning tools *(mostly built)*
+- [ ] **HORSE** Reporting and governance reminders and prompts *(built as part of DCDR)*
 - [ ] **GOAT** Is the integration requirement
 
 [The project roadmap is here](https://github.com/users/agsheves/projects/1)
@@ -41,7 +41,7 @@ flowchart TD
 ```
 ---
 
-## Status as at  Sunday, August 20, 2023
+## Status as at Thursday, September 7, 2023 
 
 ### RAT
 *General guidance on risk and crisis management to answer theoretical queries or questions*
@@ -55,15 +55,22 @@ flowchart TD
 ### OX
 *A risk assessment assistant to help assess the risks associated with threats*
 
+**Status** - ✅ *as standalone tool*
+- Built and deployed in [DCDR](dcdr.io)
+
 ---
 
 ### RABBIT
 *General country information*
 
+- In progress. Prototype [here](https://countryassessments.anvil.app/) and [overview video here](https://youtu.be/BYvwZEbwzxM0)
+
 ---
 
 ### DRAGON
 *Updated country news*
+
+- In progress.
 
 ---
 
@@ -77,6 +84,9 @@ flowchart TD
 
 ### HORSE
 *Reporting and governance reminders and prompts*
+
+**Status** - ✅ *as standalone tool*
+- Embedded within DCDR
 
 ---
 
