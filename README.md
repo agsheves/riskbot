@@ -40,6 +40,38 @@ flowchart TD
     K --> R
 ```
 ---
+### Model Training
+
+
+```mermaid
+flowchart TB
+    A[Start] --> Z{Initial fine-tuning\nwith basic stability definitions} --150 pairs--> B[(Initial Model)]
+    B ~~~ ANALYSIS
+    B -.-> ACTIVE_MODEL
+    B ~~~TRAINING
+    subgraph ACTIVE_MODEL
+    M[(Active Model)]
+    end
+    subgraph ANALYSIS
+    direction TB
+    C{Country\nEvaluations}
+    C -- Country Info --> D[fa:fa-globe\nBaseline Evaluation 1]
+    C -- News --> E[fa:fa-newspaper\nNews Evaluation 2]
+    D --> F(Asessed\nOutput)
+    E --> F
+    F --> G(Country Risk Reports)
+    end
+    subgraph TRAINING
+    direction LR
+    H{Model Training} --> I[Pairs Comparison by Model]--> J[Human Validation] --> K[Updated Pairs] --> L(Train New Model)--> N[(Updated Model)]
+    direction TB
+    end
+    F --> H
+    ACTIVE_MODEL --> ANALYSIS
+    N --> ACTIVE_MODEL
+```
+
+---
 
 ## Status as at Thursday, September 7, 2023 
 
