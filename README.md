@@ -42,6 +42,12 @@ flowchart TD
 ---
 ### Model Training
 
+This is the next big step which requires careful design. The intent is to get the model to rationalize or explain the reasons for each rating or classification. This will:
+- Allow users to see why a decision has been made. In turn they can agree / disagree / utilize the explanation in their decision-making. Explaining why an AI tool made an assessment will become an increasingly important part of governance and audits.
+- Provide additional pairs for further training. The model analysis can be reviewed again the initial pairs and a human SME's judgement. The updated pairs will be more accurate and numerous, improving the quality of future models.
+
+[ ] More research on the best practices for model training and reinforcement
+
 
 ```mermaid
 flowchart TB
