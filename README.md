@@ -1,3 +1,5 @@
+*This project is still active but this webpage is sadly neglected*
+
 # The AIRMS Project
 A project to build an interactive risk manager (AI risk management system) using desktop tools assisted by LLMS and agents. The intent is to provide on-demand data and support for risk managers. Capabilities must include:
 
